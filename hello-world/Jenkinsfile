@@ -3,11 +3,13 @@ pipeline {
     stages {
         stage('Static Analysis') {
             steps {
+                echo 'Sally'
                 echo 'Run the static analysis to the code' 
             }
         }
         stage('Compile') {
             steps {
+                echo 'teita25'
                 echo 'Compile the source code' 
             }
         }
